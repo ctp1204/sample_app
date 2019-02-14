@@ -1,0 +1,9 @@
+<% provide :title, t("about") %>
+<h1><%= t ".title"%></h1>
+<p>
+	<%= raw t(".content-about",
+	ruby_link: link_to(t(".ruby"), t(".url_ruby")),
+	book_link: link_to(t(".book"), t(".url_book")),
+	ss_link: link_to(t(".ss"), t(".url_ss")),
+	rubyonrails_link: link_to(t(".rubyonrails"), t(".url_rubyonrails"))) %>
+</p>

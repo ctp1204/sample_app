@@ -1,33 +1,40 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  home: "Home"
+  help: "Help"
+  about: "About"
+  contact: "Contact"
+  static_pages:
+    home:
+      title: "Home"
+      sample: "Sample App"
+      ruby: "Ruby on Rails Tutorial"
+      url_home: "https://www.railstutorial.org/"
+      content-home: "This is the home page for the %{ruby_link} sample application"
+    help:
+      title: "Help"
+      ruby: "Ruby on Rails Tutorial"
+      url_ruby: "http://www.railstutorial.org/book"
+      rails: "Rails Tutorial help section"
+      url_rails: "http://www.railstutorial.org/help"
+      content-help: "Get help on the Ruby on Rails Tutorial at the %{ruby_link}
+        To get help on this sample app, see the %{rails_link} book."
+    about:
+      title: "About"
+      ruby: "Ruby on Rails Tutorial"
+      url_ruby: "//www.railstutorial.org/"
+      book: "book"
+      url_book: "http://www.railstutorial.org/book"
+      ss: "screencast series"
+      url_ss: "http://screencasts.railstutorial.org/"
+      rubyonrails: "Ruby on Rails"
+      url_rubyonrails: "http://www.railstutorial.org/"
+      content-about: "The %{ruby_link} is a %{book_link} and %{ss_link} to teach web development with
+        %{rubyonrails_link} This is the sample application for the tutorial."
+    contact:
+      title: "Contact"
+      con: "contact page"
+      url: "https://www.railstutorial.org/contact"
+      content-contact: "Contact the Ruby on Rails Tutorial about the sample app at the %{con_link}"
+  layout:
+    application:
+      rubyrails: "Ruby on Rails Tutorial Sample App"
