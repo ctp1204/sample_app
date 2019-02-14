@@ -1,0 +1,7 @@
+<% provide(:title, "Help") %>
+<h1><%= t ".title" %></h1>
+<p>
+	<%= raw t(".content-help",
+	ruby_link: link_to(t(".ruby"), t(".url_ruby")),
+	rails_link: link_to(t(".rails"), t(".url_rails"))) %>
+</p>
