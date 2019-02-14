@@ -1,10 +1,31 @@
 en:
+  base_title: "Ruby on Rails Tutorial Sample App"
+  about: "About"
+  contact: "Contact"
+  help: "Help"
+  home: "Home"
+  new: "News"
+  sample: "Sample App"
+  welcome: "Welcome to the Sample App"
+  layouts:
+    application:
+      rubyrails: "Ruby on Rails Tutorial Sample App"
+    footer:
+      rbor: " Ruby on Rails Tutorial "
+      url_rbor: "https://www.railstutorial.org/"
+      michart: "Michael Hartl"
+      url_michart: "https://www.michaelhartl.com/"
+      content_rbor: "The %{ruby_link} by %{michart_link}"
+      new: "News"
+      url_new: "http://news.railstutorial.org/"
   static_pages:
     home:
       title: "Home"
       sample: "Sample App"
       ruby: "Ruby on Rails Tutorial"
       url_home: "https://www.railstutorial.org/"
+      signup: "Sign up now!"
+      url_signup: "#"
       content-home: "This is the home page for the %{ruby_link} sample application"
     help:
       title: "Help"
@@ -35,3 +56,7 @@ en:
     application:
       rubyrails: "Ruby on Rails Tutorial Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
+  users:
+    new:
+      title: "Sign up"
+      des: "This will be a signup page for new users."
