@@ -5,6 +5,7 @@ en:
   help: "Help"
   home: "Home"
   new: "News"
+  signup: "Sign up"
   sample: "Sample App"
   welcome: "Welcome to the Sample App"
   layouts:
