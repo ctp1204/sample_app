@@ -12,7 +12,7 @@ en:
       url_ruby: "http://www.railstutorial.org/book"
       rails: "Rails Tutorial help section"
       url_rails: "http://www.railstutorial.org/help"
-      content-help: "Get help on the Ruby on Rails Tutorial at the %{ruby_link} 
+      content-help: "Get help on the Ruby on Rails Tutorial at the %{ruby_link}
         To get help on this sample app, see the %{rails_link} book."
     about:
       title: "About"
@@ -24,7 +24,7 @@ en:
       url_ss: "http://screencasts.railstutorial.org/"
       rubyonrails: "Ruby on Rails"
       url_rubyonrails: "http://www.railstutorial.org/"
-      content-about: "The %{ruby_link} is a %{book_link} and %{ss_link} to teach web development with 
+      content-about: "The %{ruby_link} is a %{book_link} and %{ss_link} to teach web development with
         %{rubyonrails_link} This is the sample application for the tutorial."
     contact:
       title: "Contact"
@@ -34,3 +34,4 @@ en:
   layout:
     application:
       rubyrails: "Ruby on Rails Tutorial Sample App"
+  base_title: "Ruby on Rails Tutorial Sample App"
