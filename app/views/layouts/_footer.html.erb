@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= raw t(".content_rbor",
+      ruby_link: link_to(t(".rbor"), t(".url_rbor")),
+      michart_link: link_to(t(".michart"), t(".url_michart"))) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to(t("about"), about_path) %></li>
+      <li><%= link_to(t("contact"), contact_path) %></li>
+      <li><%= link_to(t(".new"), t(".url_new")) %></li>
+    </ul>
+  </nav>
+</footer>
