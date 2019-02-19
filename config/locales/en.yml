@@ -8,6 +8,7 @@ en:
   signup: "Sign up"
   sample: "Sample App"
   welcome: "Welcome to the Sample App"
+  messenger: "Sorry, no data found"
   layouts:
     application:
       rubyrails: "Ruby on Rails Tutorial Sample App"
@@ -60,4 +61,12 @@ en:
   users:
     new:
       title: "Sign up"
-      des: "This will be a signup page for new users."
+      conf: "Confirmation"
+      create: "Create my account"
+      username: "UserName"
+      email: "Email"
+      password: "Password"
+      passconf: "Password Confirmation"
+  shared:
+    error:
+      status: "The form contains"
