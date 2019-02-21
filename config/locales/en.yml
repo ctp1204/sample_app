@@ -5,10 +5,17 @@ en:
   help: "Help"
   home: "Home"
   new: "News"
+  user: "Users"
+  account: "Account"
+  profile: "Profile"
+  setting: "Settings"
+  login: "Log in"
+  logout: "Log out"
   signup: "Sign up"
   sample: "Sample App"
   welcome: "Welcome to the Sample App"
   messenger: "Sorry, no data found"
+  session_error: "Invalid email/password combination"
   layouts:
     application:
       rubyrails: "Ruby on Rails Tutorial Sample App"
@@ -67,6 +74,13 @@ en:
       email: "Email"
       password: "Password"
       passconf: "Password Confirmation"
+  sessions:
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      newuser: "New user?"
+      sign_up_now: "Sign up now!"
   shared:
     error:
       status: "The form contains"
