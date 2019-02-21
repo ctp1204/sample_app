@@ -8,3 +8,5 @@ user:
 users_helper:
   gravatar:
     size: 80
+session:
+  remember_me: "1"
