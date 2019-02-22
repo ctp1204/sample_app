@@ -31,6 +31,10 @@ en:
   password_reset: "Password reset"
   account_no_active: "Account not activated.
     Please check your email for the activation link. "
+  picture_size_less: "should be less than 5MB"
+  post_created: "Micropost created!"
+  post_delete: "Micropost deleted"
+  can_post_delete: "Micropost can't be deleted"
   controller:
     concerns:
       email_sent_pass: "Email sent with password reset instructions"
@@ -58,6 +62,7 @@ en:
       url_home: "https://www.railstutorial.org/"
       signup: "Sign up now!"
       url_signup: "#"
+      mic_feed: "Micropost Feed"
       content-home: "This is the home page for the %{ruby_link} sample application"
     help:
       title: "Help"
@@ -87,6 +92,12 @@ en:
   layout:
     application:
       rubyrails: "Ruby on Rails Tutorial Sample App"
+  microposts:
+    micropost:
+      delete: "Delete"
+      you_sure: "You sure?"
+      posted: "Posted"
+      ago: "ago."
   base_title: "Ruby on Rails Tutorial Sample App"
   users:
     new:
@@ -103,6 +114,8 @@ en:
       title_up: "Update your profile"
       url_avatar: "http://gravatar.com/emails"
       change: "change"
+    show:
+      microposts: "Microposts"
   sessions:
     new:
       login: "Log in"
@@ -115,6 +128,14 @@ en:
   shared:
     error:
       status: "The form contains"
+    micropost:
+      compose_new: "Compose new micropost..."
+      post: "Post"
+      maximum_file: "Maximum file size is 5MB. Please choose a smaller file."
+      change: "change"
+    user_info:
+      view_profile: "view my profile"
+      post: "micropost"
   user_mailer:
     account_text:
       hi: "Hi"

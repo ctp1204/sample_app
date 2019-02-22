@@ -16,5 +16,12 @@ views:
   users:
     _user:
       size: 50
-
-per_page: 10
+  shared:
+    _micropost:
+      size_megabytes: 5
+    _user_info:
+      size: 50
+per_page: 5
+user_size: 50
+picture_size: 5
+content_size: 140

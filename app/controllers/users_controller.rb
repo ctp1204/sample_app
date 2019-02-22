@@ -11,6 +11,8 @@ class UsersController < ApplicationController
 
   def show
     redirect_to root_path && return unless @user.activated?
+    @microposts = @user.microposts.recent_post.paginate page: params[:page],
+      per_page: Settings.per_page
   end
 
   def new
@@ -63,6 +65,7 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     return if @user
     flash[:danger] = t "no_data"
+    redirect_to root_path
   end
 
   def user_params

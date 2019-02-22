@@ -1,8 +1,8 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
-  scope :activated, ->{where activated: true}
   before_save{email.downcase!}
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
   validates :name,  presence: true, length:
@@ -12,6 +12,7 @@ class User < ApplicationRecord
   format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
   validates :password, presence: true, length:
     {minimum: Settings.user.password.min_length}, allow_nil: true
+  scope :activated, ->{where activated: true}
   has_secure_password
   class << self
     def digest string
