@@ -5,6 +5,8 @@ user:
     max_length: 255
   password:
     min_length: 6
+  pass_rs:
+    rs_sent_at: 2
 users_helper:
   gravatar:
     size: 80

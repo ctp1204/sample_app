@@ -28,8 +28,17 @@ en:
   success_acti: "Account activated!"
   inva_acti: "Invalid activation link"
   acc_acti: "Account activation"
+  password_reset: "Password reset"
   account_no_active: "Account not activated.
     Please check your email for the activation link. "
+  controller:
+    concerns:
+      email_sent_pass: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+      empty: "can't be empty"
+      pass_reset: "Password has been reset."
+      pass_expired: "Password reset has expired"
+      email_not_found: "Email address not found"
   layouts:
     application:
       rubyrails: "Ruby on Rails Tutorial Sample App"
@@ -102,6 +111,7 @@ en:
       newuser: "New user?"
       remember_me: "Remember me on this computer"
       sign_up_now: "Sign up now!"
+      forgot_pass: "(forgot password)"
   shared:
     error:
       status: "The form contains"
@@ -114,3 +124,25 @@ en:
       hi: "Hi"
       status: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    pass_text:
+      reset_your_pass: "To reset your password click the link below"
+      status_this: "This link will expire in two hours."
+      status_if: "If you did not request your password to be reset, please ignore this email and
+your password will stay as it is."
+    pass_html:
+      password_reset: "Password reset"
+      reset_your_pass: "To reset your password click the link below"
+      rs_pass: "Reset password"
+      status_this: "This link will expire in two hours."
+      status_if: "If you did not request your password to be reset, please ignore this email and
+your password will stay as it is."
+  password_resets:
+    new:
+      forgot_password: "Forgot Password"
+      email: "Email (*)"
+      submit: "Submit"
+    edit:
+      reset_password: "Reset Password"
+      password: "Password"
+      passw_confirmation: "Confirmation"
+      update_pass: "Update password"
