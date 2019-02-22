@@ -10,8 +10,8 @@
     <%= t ".posted" %> <%= time_ago_in_words(micropost.created_at) %>
     <%= t ".ago" %>
     <% if current_user?(micropost.user) %>
-    <%= link_to t(".delete"), micropost, method: :delete,
-                                       data: { confirm: t(".you_sure") } %>
+      <%= link_to t(".delete"), micropost, method: :delete,
+        data: { confirm: t(".you_sure") } %>
     <% end %>
   </span>
 </li>

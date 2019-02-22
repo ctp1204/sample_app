@@ -25,3 +25,4 @@ per_page: 5
 user_size: 50
 picture_size: 5
 content_size: 140
+show_follow_size: 30

@@ -35,6 +35,9 @@ en:
   post_created: "Micropost created!"
   post_delete: "Micropost deleted"
   can_post_delete: "Micropost can't be deleted"
+  an_error: "An error has occurred, please try again!"
+  following: "Following"
+  followers: "Followers"
   controller:
     concerns:
       email_sent_pass: "Email sent with password reset instructions"
@@ -116,6 +119,13 @@ en:
       change: "change"
     show:
       microposts: "Microposts"
+      view_profile: "view my profile"
+    show_follow:
+      microposts: "Microposts:"
+    follow:
+      sub_follow: "Follow"
+    unfollow:
+      sub_unfollow: "Unfollow"
   sessions:
     new:
       login: "Log in"
@@ -136,6 +146,9 @@ en:
     user_info:
       view_profile: "view my profile"
       post: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   user_mailer:
     account_text:
       hi: "Hi"

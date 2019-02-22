@@ -20,7 +20,6 @@ gem "rails-i18n"
 gem "rake", "12.3.2"
 gem "rubocop", "~> 0.54.0", require: false
 gem "sass-rails", "~> 5.0"
-gem "sqlite3", "1.3.13"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
 gem "will_paginate", "3.1.6"
@@ -31,6 +30,7 @@ end
 
 group :development do
   gem "listen", ">= 3.0.5", "< 3.2"
+  gem "sqlite3", "1.3.13"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console", ">= 3.3.0"
