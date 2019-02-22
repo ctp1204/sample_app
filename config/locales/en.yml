@@ -18,13 +18,18 @@ en:
   welcome: "Welcome to the Sample App"
   profile_update: "Profile updated"
   please_login: Please log in.
-  messenger: "Sorry, no data found"
+  no_data: "Sorry, no data found"
   delete: "DELETE"
   sure: "You sure?"
   session_error: "Invalid email/password combination"
   delete_successfully: "Successfully Deleted"
   unsuccessfully_user: "The user was unsuccessfully deleted"
-  no_data: "Sorry, no data found"
+  check_mail: Please check your email to activate your account.
+  success_acti: "Account activated!"
+  inva_acti: "Invalid activation link"
+  acc_acti: "Account activation"
+  account_no_active: "Account not activated.
+    Please check your email for the activation link. "
   layouts:
     application:
       rubyrails: "Ruby on Rails Tutorial Sample App"
@@ -100,3 +105,12 @@ en:
   shared:
     error:
       status: "The form contains"
+  user_mailer:
+    account_text:
+      hi: "Hi"
+      status: "Welcome to the Sample App! Click on the link below to activate your account:"
+    account_html:
+      sample_app: "Sample App"
+      hi: "Hi"
+      status: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
