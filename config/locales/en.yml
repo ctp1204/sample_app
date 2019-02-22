@@ -5,6 +5,8 @@ en:
   help: "Help"
   home: "Home"
   new: "News"
+  all_users: "All users"
+  edit_user: "Edit user"
   user: "Users"
   account: "Account"
   profile: "Profile"
@@ -14,8 +16,15 @@ en:
   signup: "Sign up"
   sample: "Sample App"
   welcome: "Welcome to the Sample App"
+  profile_update: "Profile updated"
+  please_login: Please log in.
   messenger: "Sorry, no data found"
+  delete: "DELETE"
+  sure: "You sure?"
   session_error: "Invalid email/password combination"
+  delete_successfully: "Successfully Deleted"
+  unsuccessfully_user: "The user was unsuccessfully deleted"
+  no_data: "Sorry, no data found"
   layouts:
     application:
       rubyrails: "Ruby on Rails Tutorial Sample App"
@@ -74,12 +83,19 @@ en:
       email: "Email"
       password: "Password"
       passconf: "Password Confirmation"
+    edit:
+      save: "Save changes"
+    user:
+      title_up: "Update your profile"
+      url_avatar: "http://gravatar.com/emails"
+      change: "change"
   sessions:
     new:
       login: "Log in"
       email: "Email"
       password: "Password"
       newuser: "New user?"
+      remember_me: "Remember me on this computer"
       sign_up_now: "Sign up now!"
   shared:
     error:
